@@ -1,7 +1,7 @@
-cd path - перемещение по папкам
-git init - создание .git
+п»їcd path - РїРµСЂРµРјРµС‰РµРЅРёРµ РїРѕ РїР°РїРєР°Рј
+git init - СЃРѕР·РґР°РЅРёРµ .git
 git status - status
-git add /name of file/ или . для всех
-git commit -m "comment" - коммит с коментарием
-git remote add origin /url репозитория/ залить на гитхаб
+git add /name of file/ РёР»Рё . РґР»СЏ РІСЃРµС…
+git commit -m "comment" - РєРѕРјРјРёС‚ СЃ РєРѕРјРµРЅС‚Р°СЂРёРµРј
+git remote add origin /url СЂРµРїРѕР·РёС‚РѕСЂРёСЏ/ Р·Р°Р»РёС‚СЊ РЅР° РіРёС‚С…Р°Р±
 git push -u origin master
