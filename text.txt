@@ -6,3 +6,4 @@ git commit -m "comment" - коммит с комментом
 git remote add origin /url репозитория/ залить на гитхаб
 git push -u origin master
 git remote remove origin - удалить ссылку, которую ты подготовил к заливу
+git clone url - клонировать репозиторий с гитхаба
