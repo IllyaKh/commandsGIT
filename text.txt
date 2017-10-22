@@ -19,3 +19,4 @@ mkdir name - создание папки
 git status -untracked-files=all/normal посмотреть неотслеживаеміе файлы
 git rm --cached file - для удаления из отслеживания гита
 git reset HEAD <file> - тоже самое, что и предидущее
+git checkout -- file откатить к состоянию, которое находится в репозитории
