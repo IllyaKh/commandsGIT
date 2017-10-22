@@ -18,3 +18,4 @@ mkdir name - создание папки
 *.txt - игнорить все с расширением txt
 git status -untracked-files=all/normal посмотреть неотслеживаеміе файлы
 git rm --cached file - для удаления из отслеживания гита
+git reset HEAD <file> - тоже самое, что и предидущее
