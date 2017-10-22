@@ -5,3 +5,4 @@ git add /name of file/ или . для всех
 git commit -m "comment" - коммит с комментом
 git remote add origin /url репозитория/ залить на гитхаб
 git push -u origin master
+git remote remove origin - удалить ссылку, которую ты подготовил к заливу
