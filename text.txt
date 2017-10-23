@@ -1,3 +1,4 @@
+﻿<<<<<<< HEAD
 ﻿cd path - перемещаемся по папкам
 git init - создаем .git
 git status - статус
