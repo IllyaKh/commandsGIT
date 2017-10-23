@@ -29,3 +29,9 @@ git commit - закомитить с использованием редакто
 В САМОМ РЕДАКТОРЕ Ввести коммент ->ESC -> :x- выйти из редактора VIM и сохранить изменения
 git config --global core.editor "'C:/Windows/System32/notepad.exe' - multiInst -notabbar -nosession -noPlugin"
 git config --global core.editor "'C:\Program Files\Windows NT\Accessories\wordpad.exe' -multiInst -notabbar -nosession -noPlugin"﻿ 
+git checkout -b 'new_f' - создание новой ветки(сразу переходим в нее)
+git branch -v - инфа по веткам
+git branch new_f2 - создание ветки
+git checkout nazva - переключение между ветками
+git merge назв метка
+
