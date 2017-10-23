@@ -34,3 +34,5 @@ git branch -v - инфа по веткам
 git branch new_f2 - создание ветки
 git checkout nazva - переключение между ветками
 git merge назв метка
+
+МАСТЕР ВЕТКА!!!
