@@ -1,0 +1,27 @@
+#include <iostream>
+#include <ctime>
+#include <iomanip>
+using namespace std;
+
+void main()
+{
+	int qog, buf = 0, qoc = 0; srand(time(0));
+	cout << "Enter dor: "; cin >> qog;
+	int *arr = new int[7 * qog];
+	for (int i = 0; i < 7 * qog; i++)
+		arr[i] = rand() % rand() % 2;
+	for (int i = 0; i < qog; i++)
+	{
+		cout << "Grup n " << setw(3) << i + 1 << ": ";
+		for (int j = i * 7; j < i * 7 + 7; j++)	cout << arr[j];
+		cout << ";\n";
+	}
+	for (int i = 0; i < 7; i++)
+	{
+		for (int j = 0; j < qog; j++) buf += arr[i + j * 7];
+		if (buf > qoc) qoc = buf;
+		buf = 0;
+	}
+	cout << qoc << " classroms are need to held classes\n";
+	system("pause");
+}
